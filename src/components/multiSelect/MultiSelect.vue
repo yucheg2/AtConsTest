@@ -28,7 +28,7 @@ import Button from "primevue/button";
 
 import type { Option } from "./multiSelect.i.ts";
 
-const props = withDefaults(
+withDefaults(
   defineProps<{
     placeholder?: string;
     options: Option[];
